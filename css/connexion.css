@@ -1,0 +1,184 @@
+/* fond decran */
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    font-family: Calibri ,sans-serif;
+}
+body {
+    background-color: black;
+}
+
+img.background {
+    position: static;
+    height: 100%;
+    width: 100%;
+    z-index:-1;
+}
+
+
+/* Titres / Logo */
+h1 {
+    color: #ff2f93a5;
+    font-size: 100px;
+    font-style: italic;
+    font-family: 'Bauhaus Modern', sans-serif;
+    text-align: left;
+}
+
+fieldset {
+    border: none;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+
+/* liens + logo */
+a {
+    text-decoration: none;
+    color: #FFD579; 
+    font-family: 'Apple Chancery', sans-serif;
+}
+a[type="liens"] {
+    font-size:x-large;
+    font-style: italic; 
+    font-family: Calibri ,sans-serif;
+}
+a[type="liens"]:hover{
+    color:#ff2f93a5;
+}
+a[type="Logo-1-part-1"] {
+    font-size: 200px;
+}
+a[type="Logo-1-part-2"] {
+    font-size: 120px;
+}
+
+a[type="Logo-2-part-1"] {
+    font-size: 100px;
+}
+a[type="Logo-2-part-2"] {
+   font-size: 50px;  
+}
+
+
+/* saisie */
+input {
+    background-color: #FFD579;
+    width : 250px;
+    border: 2.5px; 
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+
+    line-height: 2.5;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    font-size: small;
+    font-style: italic;
+  }
+
+input:hover { background-color: #fdc240;}
+::placeholder {color: black;}
+
+button[type="submit"]{
+
+    padding: 10px;
+    background-color: #FFD579;
+    border: 2px solid black;
+    border-radius: 30px;
+
+    font-size: small;
+    font-style: italic;
+}
+button:hover{background-color:#ff2f93a5;}
+
+p{
+    text-align: left;
+    margin:1%
+    
+}
+/* Position logo */
+#logo-1 {
+    margin-top:-12%;
+    margin-left:60%;
+}
+#logo-2 {
+    margin-top: -57%;
+    margin-right:80%;
+}
+
+/* Position Textes */
+#Description {
+    position: static;
+    margin-top: -52%;
+    margin-left:3%;
+    margin-right:25%;
+}
+
+#Description h1{
+    font-size: 5em;
+}
+
+
+#legal-condition {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    width: 1200px;
+    height: 600px;
+
+    background-color: #FFD579;
+    border: 7px; 
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    overflow: scroll;
+    text-align: justify;
+}
+
+/* Position liens */
+#singin {
+    margin-left: 175%;
+    margin-top: -15%;
+    align-items: center;
+}
+
+#registration {
+    margin-left:80%;
+    margin-top: -20%;
+
+}
+#legal {
+    margin-top: 15%;
+}
+
+
+@media (max-width: 500px), print {
+
+    #Description h1{
+        font-size: 1em;
+    }
+
+        
+    img.background {
+        background-image: url("../photos/fond_telephone.png");
+        position:fixed;
+        top:0;
+        left:0;
+        
+    }
+
+    form {
+        margin-left: 10%;
+        margin-top: 50%;
+        align-items: center;
+    }
+    
+}

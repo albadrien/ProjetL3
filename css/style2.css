@@ -1,0 +1,98 @@
+form {
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    align-items: center;
+}
+
+.recherche {
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    align-items: center;
+}
+
+.interet {
+    text-align: left;
+}
+
+
+
+input[type="text"] {
+    background-color: #FFD579;
+    width: 150px;
+    height: 40px;
+    border: 2.5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+
+    line-height: 2.5;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    line-height: 34%;
+    text-align: left;
+    font-size: medium;
+    font-family: Calibri, sans-serif;
+    font-style: italic;
+}
+
+input[type="submit"] {
+    background-color: #e6772d;
+    width: 80px;
+    height: 40px;
+    border: 2.5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+
+    line-height: 2.5;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    line-height: 34%;
+    text-align: left;
+    font-size: medium;
+    font-family: Calibri, sans-serif;
+    font-style: italic;
+}
+
+h1 {
+    color: #ff2f93a5;
+    font-size: 45px;
+    font-style: italic;
+    font-family: 'Bauhaus Modern', sans-serif;
+}
+
+img.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#resultats {
+    position: fixed;
+    left: 15%;
+    font-size: 30px;
+    color: #FFD579;
+    font-family: Calibri, sans-serif;
+    font-style: italic;
+}
+
+ol {
+    position: fixed;
+    left: 20%
+}
+
+li {
+    font-size: 15px;
+    color: #e6772d;
+}

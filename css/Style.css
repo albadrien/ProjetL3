@@ -1,0 +1,232 @@
+/* fond decran */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+img.background {
+    position: static;
+    height: 100%;
+    width: 100%;
+    z-index:-1;
+}
+@media screen, print { 
+
+/* Titres / Logo */
+h1 {
+    color: #ff2f93a5;
+    font-size: 100px;
+    font-style: italic;
+    font-family: 'Bauhaus Modern', sans-serif;
+}
+
+h2 {
+    font-family: Calibri ,sans-serif;
+    font-style: italic; 
+}
+
+h2[type="yellow"] { 
+    color:#FFD579;
+    font-size: 50px;
+}
+
+
+/* liens + logo */
+a {
+    text-decoration: none;
+    color: #FFD579; 
+}
+a[type="liens"] {
+    font-size:x-large;
+    font-family: Calibri ,sans-serif;
+    font-style: italic; 
+}
+a[type="Logo-1-part-1"] {
+    font-size: 200px;
+    font-family: 'Apple Chancery', sans-serif;
+}
+a[type="Logo-1-part-2"] {
+    font-size: 120px;
+    font-family: 'Apple Chancery', sans-serif;
+}
+
+a[type="Logo-2-part-1"] {
+    font-size: 100px;
+    font-family: 'Apple Chancery', sans-serif;
+}
+a[type="Logo-2-part-2"] {
+   font-size: 50px;
+   font-family: 'Apple Chancery', sans-serif;
+}
+
+/* saisie */
+input {
+    background-color: #FFD579;
+    width : 250px;
+    border: 2.5px; 
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+
+    line-height: 2.5;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    text-align: center;
+    font-size: small;
+    font-family: Calibri ,sans-serif;
+    font-style: italic;
+  }
+
+input:hover { background-color: #fdc240;}
+::placeholder {color: black;}
+
+
+/* Position logo */
+#logo-1 {
+    position:relative;
+    margin-top:-12%;
+    margin-left:65%;
+}
+#logo-2 {
+    position:relative;
+    margin-top: -60%;
+    margin-left:20px;
+}
+
+/* Position Textes */
+#Description {
+    position: static;
+    margin-top: -52%;
+    margin-left:5%;
+    margin-right:25%;
+
+}
+
+#legal-condition {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    width: 1200px;
+    height: 600px;
+
+    background-color: #FFD579;
+    border: 7px; 
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    overflow: scroll;
+    text-align: justify;
+}
+
+/* Position liens */
+#singin {
+    position:relative;
+    margin-left: 62%;
+    margin-top: -3%;
+    text-align: center;
+}
+#registration {
+    position:relative;
+    margin-right: 5%;
+    margin-top: -7%;
+    text-align: center;
+}
+#legal {
+    position:relative;
+    margin-right:40%;
+    margin-top: 5%;
+    text-align: center;
+}
+#formulaire {
+    position:relative;
+    margin-left:60%;
+    margin-top: -8%;
+    text-align: center;
+    align-items: center;
+}
+
+/* checkbox */
+input[type="checkbox"] {
+    visibility: hidden;
+  }
+  .checkbox {
+    width: 45px;
+    height: 15px;
+    background: #555;
+    border-radius: 5px;
+    position:relative;
+  }
+
+  .checkbox label {
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    position:absolute;
+    top: -3px;
+    left: -3px;
+    background: #ccc;
+  }
+  .checkbox input[type="checkbox"]:checked + label {
+    left: 27px;
+  }
+
+#validation {
+    position: relative;
+    margin-left:30%;
+    margin-top: -7%;
+    margin-right: 30%;
+}
+}
+
+@media (max-width: 1250px), print { 
+    h1 {
+        font-size: 70px;
+    }
+    a[type="Logo-1-part-1"] {
+        font-size: 100px;
+    }
+    a[type="Logo-1-part-2"] {
+        font-size: 60px;
+    }
+
+    #Description {
+        position:static;
+        margin-top: -50%;
+    }
+    #logo-1 {
+        margin-left:70%;
+    }
+    #singin {
+        margin-left: 62%;
+        margin-top: 0%;
+        text-align: center;
+    }
+    #legal-condition {
+        width: 800px;
+        height: 300px;
+    }
+    #formumaire {
+        margin-left: 0;
+        margin-right: 5%;
+        margin-top: -30%;
+    }
+    #validation {
+        margin-top: -20%;
+        margin-right: 40%;
+    }
+    a[type= "liens"]{
+        font-size: small;
+    }
+}

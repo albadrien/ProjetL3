@@ -1,0 +1,100 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    font-family: Calibri ,sans-serif;
+}
+body {
+    background-color: black;
+}
+
+/* fond d'ecran */
+img.background {
+    position:static;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+@media screen, print { 
+/* Titre */
+h1 {
+    color: #ff2f93a5;
+    font-size: 100px;
+    font-style: italic;
+    font-family: 'Bauhaus Modern', sans-serif;
+    text-align: left;
+}
+
+h2 {
+    font-style: italic; 
+}
+
+/* Position logo */
+#logo-2 {
+    margin-top: -57%;
+    margin-right:80%;
+}
+
+a {
+    text-decoration: none;
+    color: #FFD579; 
+    font-family: 'Apple Chancery', sans-serif;
+}
+a[type="Logo-2-part-1"] {
+    font-size: 100px;
+}
+a[type="Logo-2-part-2"] {
+   font-size: 50px;  
+}
+
+/* Texte */
+#legal-condition {
+    margin-left: 0%;
+    margin-right: 5%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    width: 1200px;
+    height: 600px;
+
+    background-color: #FFD579;
+    border: 7px; 
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    overflow: scroll;
+    text-align: justify;
+}
+}
+@media (max-width: 1250px), print { 
+    h1 {
+        font-size: 70px;
+    }
+    a[type="Logo-1-part-1"] {
+        font-size: 100px;
+    }
+    a[type="Logo-1-part-2"] {
+        font-size: 60px;
+    }
+
+    #Description {
+        position:static;
+        margin-top: -50%;
+    }
+    #logo-1 {
+        margin-left:70%;
+    }
+    #singin {
+        margin-left: 62%;
+        margin-top: 0%;
+    }
+    #legal-condition {
+        width: 800px;
+        height: 300px;
+    }
+}
